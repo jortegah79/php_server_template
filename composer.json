@@ -1,0 +1,21 @@
+{
+    "name": "juan/plantilla",
+    "description": "Plantilla para proyectos",
+    "type": "project",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"            
+        }
+    },
+    "authors": [
+        {
+            "name": "juan ortega",
+            "email": "jortegah79@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "twbs/bootstrap": "5.3.3"
+    }
+}
