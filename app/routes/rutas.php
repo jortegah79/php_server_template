@@ -6,6 +6,7 @@ use App\routes\Router;
 Router::get('/', function() {
     require "./app/views/pages/users/usuarios.php";
 });
+
 /*ejemplos */
 Router::get('/usuario/:id', function($id) {
     echo "Usuario ID: " . htmlspecialchars($id);

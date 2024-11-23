@@ -2,6 +2,8 @@
 
 namespace App\routes;
 
+//no tocar 
+
 class Router {
     private static array $routes = [];
 

@@ -16,7 +16,10 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "twbs/bootstrap": "5.3.3"
-        
+        "twbs/bootstrap": "5.3.3",
+        "guzzlehttp/guzzle": "8.0.x-dev",
+        "intervention/image": "dev-develop",
+        "phpmailer/phpmailer": "dev-master"
+         
     }
 }

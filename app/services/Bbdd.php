@@ -19,7 +19,6 @@ class Bbdd {
         $this->database=$database;
     }
     private function getConexion():mysqli|false{
-
         return new mysqli($this->host,$this->user,$this->password,$this->database);
     }
     
